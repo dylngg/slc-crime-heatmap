@@ -1,7 +1,7 @@
 import pandas as pd
 import pyproj
 
-# 45.26099227149098, -95.30231134029707
+
 def main(args):
     csv_file = '../raw-data/clean_xy_coordinates.csv'
     df = pd.read_csv(csv_file)
