@@ -3,7 +3,7 @@ import pyproj
 
 # 45.26099227149098, -95.30231134029707
 def main(args):
-    csv_file = 'clean_xy_coordinates.csv'
+    csv_file = '../raw-data/clean_xy_coordinates.csv'
     df = pd.read_csv(csv_file)
     x = df['X-COORDINATE'].values.tolist()
     y = df['Y_COORDINATE'].values.tolist()
@@ -15,7 +15,7 @@ def main(args):
     [df.set_value(x, 'X-COORDINATE', lat[x]) for x, item in enumerate(df['X-COORDINATE'])]
     [df.set_value(y, 'Y_COORDINATE', lon[y]) for y, item in enumerate(df['X-COORDINATE'])]
     print(df)
-    df.to_csv('clean_lon_lat.csv') 
+    df.to_csv('../raw-data/clean_coordinates.csv') 
 
 
 if __name__ == '__main__':
