@@ -7,6 +7,7 @@ The heatmap is based off of about small percentage (I couldn't map all 47k crime
 
 ##Installation
 To install, simply download the repo and start a webserver.
+
 Clone the repo and change directory:
 ```
 $ git clone https://github.com/dylngg/slc-crime-heatmap.git
@@ -14,6 +15,7 @@ $ cd slc-crime-heatmap
 ```
 
 Start a webserver (e.g. python SimpleHTTPServer from the project directory root):
+
 `python -m SimpleHTTPServer 8888`
 
 ###Running the geolocation conversion script
