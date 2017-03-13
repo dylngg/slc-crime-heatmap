@@ -20,5 +20,7 @@ Start a webserver (e.g. python SimpleHTTPServer from the project directory root)
 
 ###Running the geolocation conversion script
 To run the script which converts the x and y location data of the crime from EPSG:32043 to WGS84, you'll need the `pandas` and `pyproj` modules.
+
 To install the required modules, run:
+
 ```$ pip install pandas pyproj``` 
