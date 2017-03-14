@@ -2,7 +2,7 @@
 A heatmap of crime in Salt Lake City on the web.
 
 ![SLC Crime Heatmap](https://raw.githubusercontent.com/dylngg/slc-crime-heatmap/master/images/heatmap-screenshot.png "Heatmap of crime in SLC")
-The heatmap is based off of about small percentage (I couldn't map all 47k crimes) of [Salt Lake City's 2016 Police Cases](https://opendata.utah.gov/Public-Safety/SALT-LAKE-CITY-POLICE-CASES-2016/trgz-4r9d). To create the heatmap, I changed the x & y coordinates to a global coordinate system and had to clean up some of the data. You can view the raw data, along with my modifications in the raw-data folder.  
+The heatmap is based off of a small percentage (I couldn't map all 47k crimes) of [Salt Lake City's 2016 Police Cases](https://opendata.utah.gov/Public-Safety/SALT-LAKE-CITY-POLICE-CASES-2016/trgz-4r9d). To create the heatmap, I changed the x & y coordinates to a global coordinate system and had to clean up some of the data. You can view the raw data, along with my modifications in the raw-data folder.  
 
 
 ##Installation
