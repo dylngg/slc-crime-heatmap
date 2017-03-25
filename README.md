@@ -18,6 +18,8 @@ Start a webserver (e.g. python SimpleHTTPServer from the project directory root)
 
 `python -m SimpleHTTPServer 8888`
 
+Then navigate to localhost:8888.
+
 ###Running the geolocation conversion script
 To run the script which converts the x and y location data of the crime from EPSG:32043 to WGS84, you'll need the `pandas` and `pyproj` modules.
 
