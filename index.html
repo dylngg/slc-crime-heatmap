@@ -40,25 +40,25 @@
       <label for="maxOpacity" class="map-input-desc">Max Opacity</label>
       <br><br>
       <input name="functionradio" id="radius" class="opacityinput" value=".003" min=".0005" max=".01" step=".0005" autocomplete="off" type="number" onchange="setRadius(this)">
-      <label for="radius" class="map-input-desc">Radius</label>
+      <label for="radius" class="map-input-desc">Radius of Datapoints</label>
       <br><br>
-      <input name="functionradio" id="blur" class="opacityinput" value=".85" min=".1" max="1.5" step=".05" autocomplete="off" type="number" onchange="setBlur(this)">
-      <label for="blur" class="map-input-desc">Blur</label>
+      <input name="functionradio" id="blur" class="opacityinput" value=".85" min=".1" max="1.0" step=".05" autocomplete="off" type="number" onchange="setBlur(this)">
+      <label for="blur" class="map-input-desc">Blur of Datapoints</label>
       <br><br>
       <input name="functionradio" id="localExtrema" class="map-input" value="False" type="checkbox" autocomplete="off" onchange="setLocalExtrema(this)">
       <label for="localExtrema" class="map-input-desc">Use Local Extrema</label>
     </div>
     <button class="submit-button" onclick="updateMap()">
-      Submit All
+      Update Map
     </button>
     <div class="madeby">
       <h3 class="madeby-title">Made by <a href="https://dylngg.github.io">Dylan Gardner</a> on <a href="https://github.com/dylngg/slc-crime-heatmap">Github</a>.</h3>
     </div>
   </menu>
   <div class="waiting-container">
-    <h5 class="waiting-text">Either I'm a terrible programmer or the map isn't loading...</h5>
+    <h5 class="waiting-text">Either I'm a terrible programmer or Google Maps isn't loading...</h5>
   </div>
-  <div id="map-canvas"></div>
+<!--  <div id="map-canvas"></div>-->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7-JHJwEpjcfvR7X1VcqCd7d6ustccVe4&sensor=false"></script>
   <script src="scripts/heatmap.min.js"></script>
   <script src="scripts/gmaps-heatmap.js"></script>
