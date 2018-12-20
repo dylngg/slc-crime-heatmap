@@ -103,6 +103,8 @@ body {
 
 #menu {
   box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
   display: block;
   position: fixed;
   width: 100%;
@@ -128,7 +130,7 @@ body {
 }
 
 .menu-section {
-  margin-top: 35px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -151,8 +153,10 @@ body {
   font-weight: 400;
 }
 
-
-
+.map-note {
+  opacity: .5;
+  font-size: 1rem;
+}
 
 
 .heatmap-settings-shadow {
@@ -201,8 +205,9 @@ body {
 }
 
 .madeby {
-  position: absolute;
-  bottom: 80px;
+    top: 100%;
+    transform: translateY(-100%);
+    margin-top: 120px;
 }
 
 .submit-button {
